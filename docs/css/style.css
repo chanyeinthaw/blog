@@ -469,10 +469,9 @@ body {
 }
 .content {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   min-height: 100%;
-  overflow-wrap: break-word;
 }
 .content p {
   hyphens: auto;
@@ -536,6 +535,12 @@ body {
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
 @media (min-width: 540px) {
   .image-wrap {
