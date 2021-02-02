@@ -105,6 +105,6 @@ theme_config:
     home: /
     about: /about/
   social_links:
-    github: github.com/chanyeinthaw
-    twitter: twitter.com/chanyeinthaw
-    facebook: fb.com/chanyeinthaw
+    github: https://github.com/chanyeinthaw
+    twitter: https://twitter.com/chanyeinthaw
+    facebook: https://fb.com/chanyeinthaw
